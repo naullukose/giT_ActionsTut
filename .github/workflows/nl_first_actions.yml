@@ -4,7 +4,5 @@ jobs:
   first_job:
     runs-on: windows-latest
     steps:
-      -name: Print greeting
-        run: eco "Hello World"
-      -name: Print goodbye
-        run: eco "Done- ok bye"
+      -name: Print greeting run: eco "Hello World"
+      -name: Print goodbye run: eco "Done- ok bye"
